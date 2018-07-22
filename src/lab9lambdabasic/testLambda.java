@@ -13,14 +13,16 @@ public class testLambda {
         System.out.println("10 - 5 = " + operater.operate(10, 5, function.subtraction));
         System.out.println("10 ^ 5 = " + operater.operate(10, 5, function.pow));
         //-------------------------------------------------------------------------------//
+        System.out.println("lambda ex.2");
         //ex.2
         System.out.println("10 * 5 = " + function.multiplication.operation(10, 5));
         System.out.println("10 / 5 = " + function.division.operation(10, 5));
         ///-----------------------------------------------------------------------------///
 
-        System.out.println("lambda ex.2");
-        //lambda ex.2
-        MathOperation moc = null;
+        System.out.println("lambda ex.3");
+        //lambda ex.3
+        MathOperation moc;
+
         moc = (int a, int b) -> a + b;
         System.out.println("10 + 5 = " + moc.operation(10, 5));
         moc = (int a, int b) -> a - b;
