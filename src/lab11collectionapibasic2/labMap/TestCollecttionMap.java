@@ -28,14 +28,17 @@ public class TestCollecttionMap {
             System.out.println("Email = " + c1.getAddress());
             System.out.println("-----------------------------------");
         }
+
         System.out.println("-------------fore Collection--------------");
+
         Collection<Custommer> allCusts =  mymap.values();
         for (Custommer c2 : allCusts) {
             System.out.println(c2.getId());
             System.out.println(c2.getName());
             System.out.println("------------------------------------");
         }
-        
+
+
         System.out.println("-------------fore set/map-------------");
        Set<Map.Entry<String,Custommer>> s =  mymap.entrySet();
         for (Map.Entry<String, Custommer> entry : s ) {
