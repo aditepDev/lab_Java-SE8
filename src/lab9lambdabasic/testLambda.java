@@ -1,5 +1,8 @@
 package lab9lambdabasic;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class testLambda {
     public static void main(String[] args) {
 
@@ -31,6 +34,8 @@ public class testLambda {
         System.out.println("10 x 5 = " + moc.operation(10, 5));
         moc = (int a, int b) -> a / b;
         System.out.println("10 / 5 = " + moc.operation(10, 5));
+
+
 
     }
 
