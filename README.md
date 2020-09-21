@@ -39,5 +39,24 @@ Domain-specific lanfuage เช่น oop
 
 ## Clean Code
 
-- simple (ธรรมดา  ง่ายสุดสั้นที่สุด)
-- direct (ตรงไปตรงมา อ่านง่าย)
+    - ประหยัดเวลา
+    - ง่ายในการรวมกลุ่มสร้างทีม
+    - ง่ายในการ Debugging
+    - Maintenance
+    - Feel Good!! 
+
+
+- Simple (ธรรมดา  ง่ายสุดสั้นที่สุด)
+- Straightforward (ตรงไปตรงมา อ่านง่าย) `ใคร ทำอะไร ทำอย่างไร (OOP)`
+``` 
+object  = ใคร
+function = ทำอะไร
+parameter = ทำอย่างไร
+```
+- Abstraction
+` ซ้อนดีเทลบางอย่างที่คนอืนไม่เข้าใจ โชว์ที่คนอืนเข้าใจนก็พอ `
+
+- Readable (อ่านง่าย) 
+ `design pattern`
+
+## Java Clean Code
